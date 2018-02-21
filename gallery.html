@@ -26,8 +26,19 @@
           background: linear-gradient(to bottom right, #ffffff, #e6f5ff);
         }
 
+        .jumbotron {
+            background-color: #c6e8ff !important;
+        }
+
+
     .card-img-top {
-    height: 250px;
+
+margin: auto;
+Padding: 50px;
+padding-left: 40px;
+padding-right: 40px;
+padding-bottom: 0px;
+
     }
 
     .headContainer {
@@ -56,7 +67,27 @@ flex-flow: row wrap;
           margin-bottom: 10px;
           margin-right: 10px;
           margin-left: 10px;
+    }
 
+
+.bottomButton {
+
+display:flex;
+justify-content: center;
+
+}
+
+.bBPadding{
+  padding:10px;
+}
+
+
+    .headerImg {
+      padding-top: 0px;
+    }
+
+    .headerImgT {
+      padding-top: 5px;
     }
 
 
@@ -78,7 +109,7 @@ flex-flow: row wrap;
 
       <div> </div>
 
-       <a href <www.taptrust.com> TapTrust Blog </a>
+       <h2> <a href = "https://medium.com/taptrust"> TapTrust Blog </a> </h2>
 
   </div>
 
@@ -90,13 +121,16 @@ flex-flow: row wrap;
 
     <div class="jumbotron">
       <h1 class="display-4">Token Gallery</h1>
-      <p class="lead">Learn more about any given token in our gallery database.</p>
+      <p class="lead">Learn more about your favorite token in our gallery database.</p>
       <hr class="my-4">
       <p>  We take token rating very seriously. To facilitate our reviewers, we've created a database with information that we think will be helpful in
         making an accurate assessment. Of course, this isn't just for reviewers——anyone should feel free to browse and learn!
 </p>
+<p>
+  Want more information?  Read about how we designed our trust framework!
+</p>
       <p class="lead">
-        <a class="btn btn-primary btn-lg" href="#" role="button">Latest Reviews</a>
+        <a class="btn btn-primary btn-lg" href="#" role="button">LEARN</a>
       </p>
     </div>
 
@@ -110,13 +144,27 @@ flex-flow: row wrap;
 
 
     <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="./resources/tokenImg/civic.png" alt="Civic Image">
+      <img class="card-img-top" src="./resources/tokenLogos/logoCivic.png" alt="Civic Image">
       <div class="card-body">
-        <h5 class="card-title">Category: Identity</h5>
+
+        <h1 class="card-title" style = "text-align:center">CIVIC</h1>
+        <h5 class="card-title">85/100</h5>
+
+        <p>  Category: Identity </p>
+
         <p class="card-text">    Civic's model allows for on-demand, secure and lower cost access to identity verification via the blockchain...
 </p>
+
+</div>
+
+<div class = "bottomButton">
         <a href="./galleryCivic.html" class="btn btn-primary">Read More</a>
-      </div>
+</div>
+
+<div class = "bBPadding">
+
+</div>
+
 
       <div class="card-footer">
       <small class="text-muted">Last review 5 months ago</small>
@@ -129,14 +177,26 @@ flex-flow: row wrap;
 
 
     <div class="card" style="width: 18rem;">
-      <h5 class="card-header">Highest Rated</h5>
-      <img class="card-img-top" src="./resources/tokenImg/iconomi.png" alt="Iconomi Image">
+      <img class="card-img-top" src="./resources/tokenLogos/logoIconomi.png" alt="Iconomi Image">
       <div class="card-body">
-        <h5 class="card-title">Category: Financial</h5>
-        <p class="card-text">    Civic's model allows for on-demand, secure and lower cost access to identity verification via the blockchain...
+<h1 class="card-title" style = "text-align:center">ICONOMI</h1>
+
+        <h5 class="card-title">66/100</h5>
+<p> Category: Financial </p>
+
+
+
+        <p class="card-text">    Iconomi's business model and practices have come under some fire lately, with the largest issue being the apparent disappearance of their whitepaper from the official website...
 </p>
+</div>
+<div class = "bottomButton">
+
         <a href="./galleryIconomi.html" class="btn btn-primary">Read More</a>
-      </div>
+</div>
+<div class = "bBPadding">
+
+</div>
+
 
       <div class="card-footer">
       <small class="text-muted">Last review 1 week ago</small>
@@ -146,14 +206,31 @@ flex-flow: row wrap;
 
 
 
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="./resources/tokenImg/omisego.png" alt="OmiseGO Image">
+    <div class="card border-success" style="width: 18rem;">
+      <h5 class="card-header">Highest Rated</h5>
+      <img class="card-img-top headerImg" src="./resources/tokenLogos/logoOmiseGo.png" alt="OmiseGO Image">
       <div class="card-body">
-        <h5 class="card-title">Category: Utility</h5>
-        <p class="card-text">    Civic's model allows for on-demand, secure and lower cost access to identity verification via the blockchain...
+
+        <h1 class="card-title" style = "text-align:center">OmiseGO</h1>
+        <h5 class="card-title">95/100</h5>
+
+        <p> Category: Utility </p>
+
+        <p class="card-text">    OmiseGo is perhaps the cleanest of the decentralized exchanges——and it has been building the infrastructure to as as a complete gateway between...
 </p>
+
+</div>
+<div class = "bottomButton">
+
+
         <a href="./galleryOmiseGo.html" class="btn btn-primary">Read More</a>
       </div>
+
+      <div class = "bBPadding">
+
+      </div>
+
+
       <div class="card-footer">
             <small class="text-muted">Last review 3 weeks ago</small>
           </div>
@@ -165,14 +242,30 @@ flex-flow: row wrap;
 <!-- Second Token Row -->
 
 
-    <div class="card" style="width: 18rem;">
+    <div class="card border-warning" style="width: 18rem;">
+
       <h5 class="card-header">New Review</h5>
-      <img class="card-img-top" src="./resources/tokenImg/0x.png" alt="Civic Image">
+
+      <img class="card-img-top headerImgT" src="./resources/tokenLogos/logo0x.png" alt="0x Image">
       <div class="card-body">
-        <h5 class="card-title">Category: Protocol</h5>
-        <p class="card-text">    Civic's model allows for on-demand, secure and lower cost access to identity verification via the blockchain...
+
+
+        <h1 class="card-title" style = "text-align:center">0x</h1>
+        <h5 class="card-title">88/100</h5>
+
+        <p> Category: Protocol </p>
+
+        <p class="card-text">   0x bills itself as "an open, permissionless protocol allowing for ERC20 tokens to be traded on the Ethereum blockchain".  This model...
 </p>
+
+</div>
+<div class = "bottomButton">
+
         <a href="./gallery0x.html" class="btn btn-primary">Read More</a>
+      </div>
+
+      <div class = "bBPadding">
+
       </div>
 
       <div class="card-footer">
@@ -186,12 +279,28 @@ flex-flow: row wrap;
 
 
     <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="./resources/tokenImg/storj.jpg" alt="Iconomi Image">
+      <img class="card-img-top" src="./resources/tokenLogos/logoStorj.png" alt="Storj Image">
       <div class="card-body">
-        <h5 class="card-title">Category: Cloud</h5>
-        <p class="card-text">    Civic's model allows for on-demand, secure and lower cost access to identity verification via the blockchain...
+
+
+        <h1 class="card-title" style = "text-align:center">STORJ</h1>
+
+        <h5 class="card-title">90/100</h5>
+
+        <p> Category: Cloud </p>
+
+        <p class="card-text">    Storj is one of many cloud storage solutions, but they have set themselves part from the pack with solid business preactices and...
 </p>
-        <a href="#" class="btn btn-primary">Read More</a>
+
+</div>
+
+<div class = "bottomButton">
+
+        <a href="./galleryStorj.html" class="btn btn-primary">Read More</a>
+      </div>
+
+      <div class = "bBPadding">
+
       </div>
 
       <div class="card-footer">
@@ -220,7 +329,11 @@ flex-flow: row wrap;
             <!--First column-->
             <div class="col-md-6">
                 <h5 class="title">TapTrust</h5>
-                <p>taptrust footer content.....</p>
+                <p>
+
+                  <i> TapTrust does not give financial or investment advice.  Any information found on our website is for informational purposes only, and we do not guarantee the accuracy of said information. Use TapTrust sites and services at your own risk.  </i>
+
+                </p>
             </div>
             <!--/.First column-->
 
@@ -228,10 +341,10 @@ flex-flow: row wrap;
             <div class="col-md-6">
                 <h5 class="title">Menu</h5>
                 <ul>
-                    <li><a href="#!">Home</a></li>
-                    <li><a href="#!">Blog</a></li>
-                    <li><a href="#!">Reviews</a></li>
-                    <li><a href="#!">Contact</a></li>
+                    <li><a href="https://www.taptrust.com">Home</a></li>
+                    <li><a href="https://medium.com/taptrust">Blog</a></li>
+                    <li><a href="http://www.taptrust.com">Reviews</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
                 </ul>
             </div>
             <!--/.Second column-->
